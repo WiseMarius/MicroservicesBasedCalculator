@@ -54,5 +54,9 @@ _deps
 
 # Build Files
 out/
+build/
+
+# Visual Studio files
+.vs/
 
 # End of https://www.gitignore.io/api/cmake,c++
