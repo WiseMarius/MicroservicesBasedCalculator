@@ -15,6 +15,9 @@ namespace Server
             get
             {
                 yield return Generated.SumOperationService.BindService(new SumOperationService());
+                yield return Generated.SubtractionOperationService.BindService(new SubtractionOperationService());
+                yield return Generated.DivisionOperationService.BindService(new DivisionOperationService());
+                yield return Generated.MultiplicationOperationService.BindService(new MultiplicationOperationService());
             }
         }
 
